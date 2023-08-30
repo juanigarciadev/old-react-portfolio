@@ -1,0 +1,60 @@
+const certificates = [
+  {
+    name: "Web Development (HTML & CSS)",
+    id: "62d8408a36514a0019594d8f",
+    granted: "Coderhouse",
+    url: "https://www.coderhouse.com/certificados/62d8408a36514a0019594d8e",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    time: "38 hours",
+  },
+  {
+    name: "Javascript",
+    id: "632d0428c20d6900248daa21",
+    granted: "Coderhouse",
+    url: "https://www.coderhouse.com/certificados/632d0428c20d6900248daa20",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    time: "34 hours",
+  },
+  {
+    name: "ReactJS",
+    id: "646aaebaf14252252f23d480",
+    granted: "Coderhouse",
+    url: "https://www.coderhouse.com/certificados/646aaebabdc9fb0002e5f21e",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    time: "30 hours",
+  },
+  {
+    name: "Frontend ReactJS Development Carreer",
+    id: "64ba8dc18ba9d300025c87cf",
+    granted: "Coderhouse",
+    url: "https://www.coderhouse.com/certificados/64ba8dc18ba9d300025c87cf",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    time: "102 hours",
+  },
+  {
+    name: "Photoshop and Illustrator",
+    id: "638f4fc572bdc8000f8c4453",
+    granted: "Coderhouse",
+    url: "https://www.coderhouse.com/certificados/638f4fc472bdc8000f8c4452",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg",
+    time: "24 hours",
+  },
+  {
+    name: "Prototyping (Figma and Adobe XD)",
+    id: "64ba8dc187d7822c124d2610",
+    granted: "Coderhouse",
+    url: "https://www.coderhouse.com/certificados/64ba8dc18ba9d300025c87cd",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+    time: "42 hours",
+  },
+  {
+    name: "Digital Marketing Basics (Google)",
+    id: "7A3 WBU JKN",
+    granted: "Google",
+    url: "https://drive.google.com/file/d/127y4cU5rJb4wzK5RFu8XA4lz03HP9KgR/view",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg",
+    time: "40 hours",
+  },
+];
+
+export default certificates;

@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button {
+    @apply text-black px-4 h-8 rounded-2xl mb-2.5 ;
+  }
+  .button:hover {
+    @apply hover:bg-gray-200 hover:ease-in-out;
+  }
+}
