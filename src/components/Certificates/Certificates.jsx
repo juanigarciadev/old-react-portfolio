@@ -1,6 +1,7 @@
 import { Accordion, AccordionItem, Avatar } from "@nextui-org/react";
 import React from "react";
 import certificates from "../../../certificates";
+import { RxExternalLink } from "react-icons/rx";
 
 const Certificates = () => {
   return (
@@ -12,7 +13,7 @@ const Certificates = () => {
         {certificates.map((certificate) => {
           return (
             <AccordionItem
-              className="w-1/2 2xl:w-1/2 xl:w-1/2 lg:w-3/4 md:w-3/4 sm:w-3/4 duration-200"
+              className="w-1/2 2xl:w-1/2 xl:w-1/2 lg:w-5/6 md:w-5/6 sm:w-5/6 duration-200"
               key={certificate.id}
               startContent={
                 <Avatar
@@ -38,10 +39,11 @@ const Certificates = () => {
               </div>
               <div className="flex justify-end">
                 <button
-                  className="button button:hover mb-2.5 "
+                  className="button button:hover mb-2.5 gap-1"
                   onClick={() => window.open(certificate.url)}
                 >
-                  Open certificate
+                  View certificate
+                  <RxExternalLink />
                 </button>
               </div>
             </AccordionItem>
