@@ -14,7 +14,27 @@ module.exports = {
     fontSize: {
       sm: "12px",
       base: "16px",
-      xl: "20px",
+      subtitle: ["20px", "25px"],
+      title: ["48px", "1"],
+    },
+    color: {
+      graySubtitle: "#a1a1a1",
+    },
+    screens: {
+      "2xl": { max: "1535px" },
+      // => @media (max-width: 1535px) { ... }
+
+      xl: { max: "1279px" },
+      // => @media (max-width: 1279px) { ... }
+
+      lg: { max: "1023px" },
+      // => @media (max-width: 1023px) { ... }
+
+      md: { max: "767px" },
+      // => @media (max-width: 767px) { ... }
+
+      sm: { max: "639px" },
+      // => @media (max-width: 639px) { ... }
     },
     extend: {},
   },

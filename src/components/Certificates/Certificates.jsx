@@ -3,18 +3,16 @@ import React from "react";
 import certificates from "../../../certificates";
 
 const Certificates = () => {
-  const defaultContent =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
   return (
     <div className="bg-black w-full py-10">
       <Accordion
-        className="flex justify-center items-center "
+        className="flex justify-center items-center"
         variant="splitted"
       >
         {certificates.map((certificate) => {
           return (
             <AccordionItem
-              className="w-1/2 flex flex-col"
+              className="w-1/2 2xl:w-1/2 xl:w-1/2 lg:w-3/4 md:w-3/4 sm:w-3/4 duration-200"
               key={certificate.id}
               startContent={
                 <Avatar
@@ -40,7 +38,7 @@ const Certificates = () => {
               </div>
               <div className="flex justify-end">
                 <button
-                  className="bg-white button button:hover"
+                  className="button button:hover mb-2.5 "
                   onClick={() => window.open(certificate.url)}
                 >
                   Open certificate

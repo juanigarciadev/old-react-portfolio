@@ -4,9 +4,16 @@
 
 @layer components {
   .button {
-    @apply text-black px-4 h-8 rounded-2xl mb-2.5 ;
+    @apply flex justify-center items-center align-middle gap-3 bg-white text-black h-10 w-44 rounded-3xl duration-200;
   }
   .button:hover {
     @apply hover:bg-gray-200 hover:ease-in-out;
   }
+  .secondaryButton {
+    @apply flex justify-center align-middle items-center gap-3 text-white bg-transparent border-solid border-1 border-neutral-400 h-10 w-44 rounded-3xl duration-200;
+  }
+  .secondaryButton:hover {
+    @apply hover:bg-white border-none text-black hover:ease-in-out;
+  }
+
 }
