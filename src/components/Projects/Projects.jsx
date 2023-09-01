@@ -3,11 +3,11 @@ import projects from "../../../projects";
 
 const Projects = () => {
   return (
-    <section className="flex flex-col pb-32 gap-36 lg:gap-16">
+    <section className="flex flex-col pb-32 gap-28 lg:gap-16 h-auto">
       {projects.map((project) => {
         return (
           <div
-            className="grid grid-cols-2 justify-center items-top px-24 gap-6 lg:flex lg:flex-col lg:px-20"
+            className="grid grid-cols-2 justify-center items-top px-24 py-8 gap-6 lg:flex lg:flex-col lg:px-20 hover:scale-105 duration-300"
             key={project.name}
           >
             <div>
@@ -27,7 +27,7 @@ const Projects = () => {
                   );
                 })}
               </ul>
-              <div className="flex gap-6 justify-center">
+              <div className="flex gap-6 justify-end lg:justify-center">
                 <button
                   className="secondaryButton"
                   onClick={() => window.open(project.repository)}
