@@ -53,6 +53,7 @@ const Projects = () => {
                     </button>
                   ) : (
                     <button
+                      disabled
                       className="disabledButton gap-1"
                       onClick={() => window.open(project.url)}
                     >
