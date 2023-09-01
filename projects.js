@@ -48,7 +48,7 @@ const projects = [
   {
     name: "zolution",
     information:
-      "Website of committed developers looking to solve problems by creating websites.",
+      "Own business in creation. It is a project that seeks to unite a team of designers and developers from around the world through which competent web pages and applications are created that can enter the market quickly, professionally and with a competitive price accompanying the customer from start to finish.",
     tools: [
       html,
       css,
@@ -70,7 +70,7 @@ const projects = [
   {
     name: "BEYOND IMAGINATION",
     information:
-      "Welcome to my first ReactJS application. This project seeks to be a competent programming academy.",
+      "My first application applying ReactJS as a framework. It is an online learning academy based on an e-commerce hosted on Firebase, with an interactive catalog and purchase number. Soon the platform of the academy will be added in which you can register a new account or log in to an already created one, view the courses purchased and their contents.",
     tools: [
       html,
       css,
