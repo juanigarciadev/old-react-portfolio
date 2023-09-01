@@ -8,7 +8,7 @@ const Projects = () => {
       {projects.map((project) => {
         return (
           <div
-            className="flex flex-col px-8 gap-6 hover:scale-105 duration-300 lg:flex lg:flex-col lg:px-20 md:hover:scale-100"
+            className="flex flex-col px-8 gap-6 hover:scale-105 duration-300 lg:flex lg:flex-col lg:px-0 md:hover:scale-100"
             key={project.name}
           >
             <div>
