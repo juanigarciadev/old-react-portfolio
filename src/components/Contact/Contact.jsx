@@ -1,5 +1,6 @@
 import React from "react";
 import { BsBehance, BsGithub, BsLinkedin } from "react-icons/bs";
+import { RxExternalLink } from "react-icons/rx";
 
 const Contact = () => {
   return (
@@ -14,8 +15,14 @@ const Contact = () => {
         <div className="flex gap-32 md:flex-col md:gap-8">
           <div>
             <h3 className="text-sm text-neutral-400">Email</h3>
-            <h3 className="text-subtitle font-bold">
+            <h3
+              className="flex items-center gap-1.5 text-subtitle font-bold cursor-pointer hover:text-neutral-300 duration-300"
+              onClick={() => {
+                window.location = "mailto:juanigarciadev@gmail.com";
+              }}
+            >
               juanigarciadev@gmail.com
+              <RxExternalLink />
             </h3>
           </div>
           <div>
@@ -23,7 +30,7 @@ const Contact = () => {
             <h3 className="text-subtitle font-bold">+(54) 9 261 597-1527</h3>
           </div>
         </div>
-        <div className="flex gap-6 justify-bottom items-center">
+        <div className="flex gap-20 justify-bottom items-center lg:gap-4 md:gap-16">
           <BsGithub
             className="text-[30px]"
             title="Github"

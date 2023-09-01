@@ -20,7 +20,14 @@ const Home = () => {
           designing and developing with love.
         </h3>
         <div className="flex gap-6 w-full justify-center lg:flex-col lg:items-center md:items-center md:flex-col sm:items-center sm:flex-col">
-          <button className="button lg:w-3/6">Hire me</button>
+          <button
+            className="button lg:w-3/6"
+            onClick={() => {
+              window.scrollTo({ top: 8000, behavior: "smooth" });
+            }}
+          >
+            Hire me
+          </button>
           <button
             className="secondaryButton lg:w-3/6"
             onClick={() => window.open("https://github.com/juanigarciadev")}
