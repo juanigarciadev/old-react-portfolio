@@ -15,7 +15,8 @@ const Projects = () => {
               <div>
                 <img
                   src={project.img}
-                  className="rounded-xl w-full select-none pointer-events-none"
+                  draggable="false"
+                  className="rounded-xl w-full select-none"
                   alt=""
                 />
               </div>
@@ -25,7 +26,8 @@ const Projects = () => {
                   {project.logo != null ? (
                     <img
                       src={project.logo}
-                      className="w-64 select-none pointer-events-none"
+                      draggable="false"
+                      className="w-64 select-none"
                       alt=""
                     />
                   ) : (
