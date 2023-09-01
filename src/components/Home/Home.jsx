@@ -6,7 +6,7 @@ const Home = () => {
     <section className="h-screen grid grid-cols-2 2xl:grid-cols-2 xl:grid-cols-2 grid-rows-1 px-24 lg:flex lg:items-center lg:px-0 md:flex md:items-center md:px-0 sm:flex sm:items-center sm:px-0">
       <div className="flex justify-center flex-col gap-10">
         <h3 className="text-title font-bold tracking-tight lg:flex lg:flex-col lg:items-center md:flex md:flex-wrap md:flex-col md:items-center md:text-center sm:flex sm:flex-wrap sm:flex-col sm:items-center sm:px-6 sm:text-center">
-          <span className="text-title font-bold tracking-tight pb-1.5 titleGradient">
+          <span className="text-title font-bold tracking-tight lg:pb-1.5 titleGradient">
             Original&nbsp;
           </span>
           and
