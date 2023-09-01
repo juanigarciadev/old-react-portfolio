@@ -10,7 +10,7 @@ const projects = [
     url: "https://todotech.netlify.app/",
     repository: "https://github.com/juanigarciadev/proyecto-TODOTECH",
     badge: false,
-    tag: "E-COMMERCE",
+    tag: "// E-commerce",
   },
   {
     name: "zolution",
@@ -23,7 +23,7 @@ const projects = [
     url: "https://zolution.vercel.app/",
     repository: "https://github.com/juanigarciadev/zolution",
     badge: "Working in...",
-    tag: "DESIGN AND DEVELOPMENT AGENCY",
+    tag: "// Design and development agency",
   },
   {
     name: "BEYOND IMAGINATION",
@@ -36,7 +36,7 @@ const projects = [
     url: "https://beyond-imagination.vercel.app/",
     repository: "https://github.com/juanigarciadev/first-react-app",
     badge: false,
-    tag: "E-COMMERCE",
+    tag: "// E-commerce",
   },
   {
     name: "My portfolio",
@@ -49,7 +49,7 @@ const projects = [
     url: "https://juanigarciadev.vercel.app/",
     repository: "https://github.com/juanigarciadev/my-portfolio",
     badge: false,
-    tag: "PERSONAL PORTFOLIO",
+    tag: "// Personal portfolio",
   },
 ];
 

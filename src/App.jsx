@@ -1,18 +1,18 @@
 import "./App.css";
-import { Accordion, AccordionItem } from "@nextui-org/react";
-import HeroContainer from "./components/Certificates/CertificatesContainer";
-import CertificatesContainer from "./components/Certificates/CertificatesContainer";
-import HomeContainer from "./components/Home/HomeContainer";
-import ProjectsContainer from "./components/Projects/ProjectsContainer";
+import Certificates from "./components/Certificates/Certificates";
+import Home from "./components/Home/Home";
+import Projects from "./components/Projects/Projects";
 import NavbarContainer from "./components/Navbar/NavbarContainer";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
     <>
       <NavbarContainer />
-      <HomeContainer />
-      <ProjectsContainer />
-      <CertificatesContainer />
+      <Home />
+      <Projects />
+      {/* <Certificates /> */}
+      <Contact />
     </>
   );
 }

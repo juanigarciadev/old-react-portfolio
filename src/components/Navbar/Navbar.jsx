@@ -34,7 +34,14 @@ const Navbar = ({ navScroll }) => {
           >
             Projects
           </li>
-          <li className="navLink">Contact</li>
+          <li
+            className="navLink"
+            onClick={() => {
+              window.scrollTo({ top: 8000, behavior: "smooth" });
+            }}
+          >
+            Contact
+          </li>
         </ul>
       </div>
     </section>

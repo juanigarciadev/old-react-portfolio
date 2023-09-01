@@ -36,7 +36,11 @@ module.exports = {
       sm: { max: "639px" },
       // => @media (max-width: 639px) { ... }
     },
-    extend: {},
+    extend: {
+      scale: {
+        102: "1.02",
+      },
+    },
   },
   darkMode: "class",
   plugins: [nextui()],
