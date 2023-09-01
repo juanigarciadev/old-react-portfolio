@@ -27,7 +27,12 @@ const Projects = () => {
                 {project.tools.map((tools) => {
                   return (
                     <li key={tools}>
-                      <img src={tools} className="w-16" alt="" />
+                      <img
+                        src={tools[0]}
+                        title={tools[1]}
+                        className="w-16"
+                        alt=""
+                      />
                     </li>
                   );
                 })}
