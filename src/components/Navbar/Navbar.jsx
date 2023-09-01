@@ -9,14 +9,14 @@ const Navbar = ({ navScroll }) => {
         <img
           src="https://res.cloudinary.com/diruiumfk/image/upload/v1680216082/beyond-imagination_zfxqv7.png"
           alt="my logo"
-          className="logo"
+          className="logo select-none pointer-events-none"
           onClick={() => {
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
         />
       </div>
       <div>
-        <ul className="navLinksContainer">
+        <ul className="navLinksContainer select-none">
           <li
             className="navLink"
             onClick={() => {

@@ -13,13 +13,21 @@ const Projects = () => {
               key={project.name}
             >
               <div>
-                <img src={project.img} className="rounded-xl w-full" alt="" />
+                <img
+                  src={project.img}
+                  className="rounded-xl w-full select-none pointer-events-none"
+                  alt=""
+                />
               </div>
               <div className="flex flex-col w-full gap-6 justify-top">
                 <h3 className="text-sm text-neutral-400">{project.tag}</h3>
                 <div>
                   {project.logo != null ? (
-                    <img src={project.logo} className="w-64" alt="" />
+                    <img
+                      src={project.logo}
+                      className="w-64 select-none pointer-events-none"
+                      alt=""
+                    />
                   ) : (
                     <h3 className="text-title font-bold pb-1.5">
                       {project.name}
@@ -27,7 +35,7 @@ const Projects = () => {
                   )}
                 </div>
                 {project.badge ? (
-                  <h3 className="flex justify-center items-center text-md text-black bg-yellow-400 w-32 h-8 rounded-md">
+                  <h3 className="flex justify-center items-center text-md text-black bg-yellow-400 w-32 h-8 rounded-md select-none">
                     {project.badge}
                   </h3>
                 ) : null}
