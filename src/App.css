@@ -5,3 +5,10 @@
   font-size: 16px;
   font-family: Inter;
 }
+
+.titleGradient {
+  background: -webkit-linear-gradient(#00ff00, #009000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
