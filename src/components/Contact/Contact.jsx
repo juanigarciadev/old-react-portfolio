@@ -32,19 +32,19 @@ const Contact = () => {
         </div>
         <div className="flex gap-20 justify-bottom items-center lg:gap-4 md:gap-16">
           <BsGithub
-            className="text-[30px]"
+            className="text-[30px] cursor-pointer"
             title="Github"
             onClick={() => window.open("https://github.com/juanigarciadev")}
           />
           <BsLinkedin
-            className="text-[30px]"
+            className="text-[30px] cursor-pointer"
             title="LinkedIn"
             onClick={() =>
               window.open("https://www.linkedin.com/in/juanigarciadev")
             }
           />
           <BsBehance
-            className="text-[30px]"
+            className="text-[30px] cursor-pointer"
             title="Behance"
             onClick={() =>
               window.open("https://www.behance.net/juanigarciadev")
