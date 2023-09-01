@@ -7,13 +7,13 @@ const Projects = () => {
       {projects.map((project) => {
         return (
           <div
-            className="grid grid-cols-2 justify-center items-center px-24 gap-6 lg:grid-cols-1 lg:grid-rows-2 lg:px-20"
+            className="grid grid-cols-2 justify-center items-top px-24 gap-6 lg:flex lg:flex-col lg:px-20"
             key={project.name}
           >
             <div>
               <img src={project.img} className="rounded-xl w-full" alt="" />
             </div>
-            <div className="flex flex-col gap-6 justify-top">
+            <div className="flex flex-col w-full gap-6 justify-top">
               <div>
                 <img src={project.logo} className="w-64" alt="" />
               </div>
