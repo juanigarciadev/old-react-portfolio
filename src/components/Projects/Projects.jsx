@@ -45,7 +45,7 @@ const Projects = () => {
                 <h3 className="text-md">
                   <span className="font-bold">Built with:</span> {project.tools}
                 </h3>
-                <div className="flex gap-6 justify-end lg:justify-center">
+                <div className="flex gap-6 justify-end lg:justify-center xs:flex-col xs:items-center">
                   <button
                     className="secondaryButton gap-1"
                     onClick={() => window.open(project.repository)}

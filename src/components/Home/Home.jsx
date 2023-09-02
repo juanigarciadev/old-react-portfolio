@@ -5,12 +5,15 @@ const Home = () => {
   return (
     <section className="h-screen hero flex justify-center text-center px-24 lg:flex lg:items-center lg:px-0 md:flex md:items-center md:px-0 sm:flex sm:items-center sm:px-0">
       <div className="flex justify-center items-center flex-col gap-10">
-        <h3 className="text-title pb-2 font-bold tracking-tight lg:flex lg:flex-col lg:items-center md:flex-wrap md:items-center md:text-center sm:px-6">
-          <span className="text-title font-bold tracking-tight lg:pb-1.5 titleGradient">
-            {"{"}Original&nbsp;
-          </span>
+        <h3 className="flex flex-row text-title pb-2 font-bold tracking-tight xl:flex xl:flex-col xl:items-center md:flex-wrap md:items-center md:text-center sm:px-6">
+          <div className="flex w-auto">
+            <h3 className="text-title  pb-1.5">{"{"}</h3>
+            <span className="text-title font-bold tracking-tight lg:pb-1.5 titleGradient">
+              Original&nbsp;
+            </span>
+          </div>
           and
-          <span className="text-title font-bold tracking-tight lg:pb-1.5 titleGradient">
+          <span className="text-title font-bold tracking-tight xl:pb-1.5 titleGradient">
             &nbsp;modern&nbsp;
           </span>
           design at your fingertips.{"}"}
