@@ -14,7 +14,7 @@ const Contact = () => {
       <div className="flex justify-between px-16 pb-24 h-auto gap-32 md:flex-col md:gap-8">
         <div className="flex gap-32 md:flex-col md:gap-8">
           <div>
-            <h3 className="text-sm text-neutral-400">Email</h3>
+            <h3 className="text-sm text-neutral-400">// Email</h3>
             <h3
               className="flex items-center gap-1.5 text-subtitle font-bold cursor-pointer hover:text-neutral-300 duration-300"
               onClick={() => {
@@ -26,7 +26,7 @@ const Contact = () => {
             </h3>
           </div>
           <div>
-            <h3 className="text-sm text-neutral-400">Phone number</h3>
+            <h3 className="text-sm text-neutral-400">// Phone number</h3>
             <h3 className="text-subtitle font-bold">+(54) 9 261 597-1527</h3>
           </div>
         </div>

@@ -19,16 +19,18 @@ const Navbar = ({ navScroll }) => {
       <div>
         <ul className="navLinksContainer select-none">
           <li
-            className="navLink"
+            className="text-neutral-400 text-md hover:text-inherit duration-300"
             onClick={() => {
               window.scrollTo({ top: 750, behavior: "smooth" });
             }}
           >
             About me
           </li>
-          <li className="navLink">Skills</li>
+          <li className="text-neutral-400 text-md hover:text-[#ecedee] duration-300">
+            Skills
+          </li>
           <li
-            className="navLink"
+            className="text-neutral-400 text-md hover:text-[#ecedee] duration-300"
             onClick={() => {
               window.scrollTo({ top: 1250, behavior: "smooth" });
             }}
@@ -36,7 +38,7 @@ const Navbar = ({ navScroll }) => {
             Projects
           </li>
           <li
-            className="navLink"
+            className="text-neutral-400 text-md hover:text-[#ecedee] duration-300"
             onClick={() => {
               window.scrollTo({ top: 8000, behavior: "smooth" });
             }}
