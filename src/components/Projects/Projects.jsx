@@ -5,6 +5,14 @@ import { RxExternalLink } from "react-icons/rx";
 const Projects = () => {
   return (
     <>
+      <div className="flex flex-col items-center">
+        <h3 className="text-sm w-auto text-neutral-400 pb-2">
+          // Made with love {"<3"}
+        </h3>
+        <h3 className="text-title text-center font-bold pb-1.5">
+          Stuff I’ve worked on
+        </h3>
+      </div>
       <section className="grid grid-cols-2 pb-32 pt-8 px-16 gap-16 lg:flex lg:flex-col lg:gap-18 h-auto">
         {projects.map((project) => {
           return (

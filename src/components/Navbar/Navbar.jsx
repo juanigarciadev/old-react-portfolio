@@ -26,13 +26,18 @@ const Navbar = ({ navScroll }) => {
           >
             About me
           </li>
-          <li className="text-neutral-400 text-md hover:text-[#ecedee] duration-300">
+          <li
+            className="text-neutral-400 text-md hover:text-[#ecedee] duration-300"
+            onClick={() => {
+              window.scrollTo({ top: 1150, behavior: "smooth" });
+            }}
+          >
             Skills
           </li>
           <li
             className="text-neutral-400 text-md hover:text-[#ecedee] duration-300"
             onClick={() => {
-              window.scrollTo({ top: 1250, behavior: "smooth" });
+              window.scrollTo({ top: 2400, behavior: "smooth" });
             }}
           >
             Projects
