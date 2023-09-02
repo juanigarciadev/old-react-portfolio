@@ -35,7 +35,7 @@ const AboutMe = () => {
             {skills.map((skill) => {
               return (
                 <div className="flex flex-col items-center gap-4">
-                  <i className={skill.class}></i>
+                  <i className={`${skill.class} ${skill.secondClass}`}></i>
                   <h3 className="text-md">{skill.name}</h3>
                 </div>
               );
