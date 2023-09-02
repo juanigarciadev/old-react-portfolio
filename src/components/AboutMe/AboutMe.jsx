@@ -1,5 +1,4 @@
 import React from "react";
-import skills from "../../../skills";
 import Certificates from "../Certificates/Certificates";
 
 const AboutMe = () => {
@@ -32,14 +31,58 @@ const AboutMe = () => {
         <h3 className="text-subtitle font-bold pb-8">My skills</h3>
         <div className="flex flex-col gap-32">
           <div className="flex flex-wrap gap-12 w-[40vw] justify-center items-center lg:w-[100%]">
-            {skills.map((skill) => {
-              return (
-                <div className="flex flex-col items-center gap-4">
-                  <i className={`${skill.class} ${skill.secondClass}`}></i>
-                  <h3 className="text-md">{skill.name}</h3>
-                </div>
-              );
-            })}
+            <div className="flex flex-col items-center gap-4">
+              <i className="devicon-html5-plain text-[70px]"></i>
+              <h3 className="text-md">HTML5</h3>
+            </div>
+            <div className="flex flex-col items-center gap-4">
+              <i className="devicon-css3-plain text-[70px]"></i>
+              <h3 className="text-md">CSS3</h3>
+            </div>
+            <div className="flex flex-col items-center gap-4">
+              <i className="devicon-javascript-plain text-[70px]"></i>
+              <h3 className="text-md">JavaScript</h3>
+            </div>
+            <div className="flex flex-col items-center gap-4">
+              <i className="devicon-react-original text-[70px]"></i>
+              <h3 className="text-md">ReactJS</h3>
+            </div>
+            <div className="flex flex-col items-center gap-4">
+              <i className="devicon-tailwindcss-plain text-[70px]"></i>
+              <h3 className="text-md">Tailwind</h3>
+            </div>
+            <div className="flex flex-col items-center gap-4">
+              <i className="devicon-sass-original text-[70px]"></i>
+              <h3 className="text-md">SASS</h3>
+            </div>
+            <div className="flex flex-col items-center gap-4">
+              <i className="devicon-bootstrap-plain text-[70px]"></i>
+              <h3 className="text-md">Bootstrap</h3>
+            </div>
+            <div className="flex flex-col items-center gap-4">
+              <i className="devicon-git-plain text-[70px]"></i>
+              <h3 className="text-md">git</h3>
+            </div>
+            <div className="flex flex-col items-center gap-4">
+              <i className="devicon-github-original text-[70px]"></i>
+              <h3 className="text-md">Github</h3>
+            </div>
+            <div className="flex flex-col items-center gap-4">
+              <i className="devicon-photoshop-plain text-[70px]"></i>
+              <h3 className="text-md">Photoshop</h3>
+            </div>
+            <div className="flex flex-col items-center gap-4">
+              <i className="devicon-illustrator-plain text-[70px]"></i>
+              <h3 className="text-md">Illustrator</h3>
+            </div>
+            <div className="flex flex-col items-center gap-4">
+              <i className="devicon-figma-plain text-[70px]"></i>
+              <h3 className="text-md">Figma</h3>
+            </div>
+            <div className="flex flex-col items-center gap-4">
+              <i className="devicon-visualstudio-plain text-[70px]"></i>
+              <h3 className="text-md">Visual Studio</h3>
+            </div>
           </div>
         </div>
       </div>
