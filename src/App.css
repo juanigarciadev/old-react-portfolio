@@ -52,7 +52,7 @@
   width: 100vw;
   gap: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   color: white;
   padding: 0rem 4rem;

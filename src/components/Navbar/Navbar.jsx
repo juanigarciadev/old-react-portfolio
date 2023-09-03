@@ -11,7 +11,7 @@ const Navbar = ({ navScroll }) => {
           src="https://res.cloudinary.com/diruiumfk/image/upload/v1680216082/beyond-imagination_zfxqv7.png"
           alt="my logo"
           draggable="false"
-          className="logo select-none"
+          className="logo cursor-pointer select-none"
           onClick={() => {
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
