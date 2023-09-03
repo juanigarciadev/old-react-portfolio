@@ -1,4 +1,5 @@
 import React from "react";
+import { RxExternalLink } from "react-icons/rx";
 
 const Navbar = ({ navScroll }) => {
   return (
@@ -16,41 +17,24 @@ const Navbar = ({ navScroll }) => {
           }}
         />
       </div>
-      <div>
-        <ul className="navLinksContainer select-none">
-          <li
-            className="text-neutral-400 text-md hover:text-inherit duration-300"
-            onClick={() => {
-              window.scrollTo({ top: 750, behavior: "smooth" });
-            }}
-          >
-            About me
-          </li>
-          <li
-            className="text-neutral-400 text-md hover:text-[#ecedee] duration-300"
-            onClick={() => {
-              window.scrollTo({ top: 1150, behavior: "smooth" });
-            }}
-          >
-            Skills
-          </li>
-          <li
-            className="text-neutral-400 text-md hover:text-[#ecedee] duration-300"
-            onClick={() => {
-              window.scrollTo({ top: 2400, behavior: "smooth" });
-            }}
-          >
-            Projects
-          </li>
-          <li
-            className="text-neutral-400 text-md hover:text-[#ecedee] duration-300"
-            onClick={() => {
-              window.scrollTo({ top: 8000, behavior: "smooth" });
-            }}
-          >
-            Contact
-          </li>
-        </ul>
+      <div className="flex gap-8">
+        <h3
+          className="hover:text-neutral-400 duration-300 cursor-pointer"
+          onClick={() => window.scrollTo({ top: 9000, behavior: "smooth" })}
+        >
+          Contact
+        </h3>
+        <h3
+          className="flex items-center gap-1 hover:text-neutral-400 duration-300 cursor-pointer"
+          onClick={() =>
+            window.open(
+              "https://docs.google.com/document/d/1Y21tjUsgCw26h-k5h-EQ0U6f2EIuIz6b/edit?usp=sharing&ouid=111247813899821454897&rtpof=true&sd=true"
+            )
+          }
+        >
+          My resume
+          <RxExternalLink />
+        </h3>
       </div>
     </section>
   );

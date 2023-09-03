@@ -52,10 +52,10 @@
   width: 100vw;
   gap: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   color: white;
-  padding: 20px;
+  padding: 0rem 4rem;
   position: fixed;
   overflow: hidden;
   transition: 0.3s;

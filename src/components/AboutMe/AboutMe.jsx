@@ -100,7 +100,7 @@ const AboutMe = () => {
             )
           }
         >
-          View resume
+          View my resume
           <RxExternalLink />
         </button>
       </div>

@@ -6,7 +6,7 @@ import { RxExternalLink } from "react-icons/rx";
 const Certificates = () => {
   return (
     <>
-      <div className=" w-full pb-10">
+      <div className=" w-full">
         <Accordion
           className="flex justify-center items-center"
           variant="splitted"
