@@ -53,7 +53,7 @@ const Projects = () => {
                 <div className="flex gap-2 flex-wrap">
                   {project.tools.map((tool) => {
                     return (
-                      <h3 className="border-1 border-neutral-500 p-2 rounded-md hover:border-[#00ff00] duration-300 cursor-default">
+                      <h3 className="border-1 border-neutral-500 p-2 rounded-md hover:border-[#00ff00] duration-300 cursor-default select-none">
                         {tool}
                       </h3>
                     );
