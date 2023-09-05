@@ -4,18 +4,18 @@
 
 @layer components {
   .button {
-    @apply flex justify-center items-center align-middle gap-3 bg-white text-black h-10 w-44 rounded-3xl select-none duration-200;
+    @apply flex justify-center items-center align-middle gap-3 bg-white text-black h-10 w-44 rounded-md select-none duration-200;
   }
   .button:hover {
     @apply select-none hover:bg-neutral-200  hover:ease-in-out;
   }
   .secondaryButton {
-    @apply flex justify-center align-middle items-center gap-3 text-white bg-transparent border-solid border-1 border-neutral-400 h-10 w-44 rounded-3xl select-none duration-200;
+    @apply flex justify-center align-middle items-center gap-3 text-white bg-transparent border-solid border-1 border-neutral-400 h-10 w-44 rounded-md select-none duration-200;
   }
   .secondaryButton:hover {
     @apply hover:bg-white border-none text-black hover:ease-in-out;
   }
 .disabledButton {
-  @apply flex justify-center bg-neutral-200 items-center align-middle gap-3 text-black h-10 w-44 rounded-3xl select-none;
+  @apply flex justify-center bg-neutral-200 items-center align-middle gap-3 text-black h-10 w-44 rounded-md select-none;
 }
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import Certificates from "../Certificates/Certificates";
 import { RxExternalLink } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 const AboutMe = () => {
   return (
@@ -27,6 +28,9 @@ const AboutMe = () => {
           interactivity and inclusion of all audiences, and to be able to create
           tools that contribute to the development area.
         </p>
+        <Link to="/biography" className="secondaryButton">
+          Read full biography
+        </Link>
       </div>
       <div className="flex flex-col items-center">
         <h3 className="text-subtitle font-bold pb-8">My skills</h3>

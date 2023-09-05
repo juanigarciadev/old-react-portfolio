@@ -4,7 +4,7 @@ import { RxExternalLink } from "react-icons/rx";
 
 const Contact = () => {
   return (
-    <section className="flex flex-col">
+    <section className="flex flex-col" id="contact">
       <div className="flex flex-col pb-16 md:pb-12">
         <h3 className="text-sm text-neutral-400 pl-16 pb-2">
           // Do you have an idea?

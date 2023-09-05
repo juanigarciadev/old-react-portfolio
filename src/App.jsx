@@ -1,19 +1,19 @@
 import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home/Home";
-import Projects from "./components/Projects/Projects";
 import NavbarContainer from "./components/Navbar/NavbarContainer";
-import Contact from "./components/Contact/Contact";
-import AboutMe from "./components/AboutMe/AboutMe";
+import Biography from "./components/Bio/Biography";
 
 function App() {
   return (
-    <>
-      <NavbarContainer />
-      <Home />
-      <AboutMe />
-      <Projects />
-      <Contact />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<NavbarContainer />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/biography" element={<Biography />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
