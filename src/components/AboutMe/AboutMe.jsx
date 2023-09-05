@@ -13,8 +13,9 @@ const AboutMe = () => {
       </div>
       <div className="flex flex-col gap-8 items-center">
         <p className="w-2/4 lg:w-full">
-          My name is Juan Ignacio García, I am 19 years old, I was born and
-          raised in Mendoza, Argentina. Currently studying{" "}
+          Curious and creative front-end developer named Juan Ignacio García, 19
+          years old, born and raised in Mendoza, Argentina. Currently
+          studying&nbsp;
           <mark className="text-[#00ff00] bg-transparent">
             Software Development
           </mark>

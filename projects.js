@@ -5,7 +5,7 @@ const projects = [
       "My first project in Web Development, the idea started from the creation of an e-commerce. At first it was just the layout (HTML and CSS), but later I added vanilla JavaScript to add e-commerce, dark mode and login functionalities. It still has the original design that I did in its day but probably at some point of boredom I will make a second version updating everything with my knowledge of the moment.",
     tools:
       "HTML5, CSS3, Bootstrap, SASS, Photoshop, Illustrator, git, Visual Studio Code and Netlify.",
-    img: "https://res.cloudinary.com/diruiumfk/image/upload/v1693254750/todotech_yk7ask.png",
+    img: "https://res.cloudinary.com/diruiumfk/image/upload/v1693907606/todotech_xeasla.png",
     logo: "https://res.cloudinary.com/diruiumfk/image/upload/v1693585257/todotech-logo_whcfxr.png",
     url: "https://todotech.netlify.app/",
     repository: "https://github.com/juanigarciadev/proyecto-TODOTECH",
@@ -41,10 +41,10 @@ const projects = [
   {
     name: "My portfolio",
     information:
-      "My first application applying ReactJS as a framework. It is an online learning academy based on an e-commerce hosted on Firebase, with an interactive catalog and purchase number. Soon the platform of the academy will be added in which you can register a new account or log in to an already created one, view the courses purchased and their contents.",
+      "What I am and what I have achieved concentrated in a place for the public knowledge of my person. I update it constantly. Blog in progress.",
     tools:
       "HTML5, CSS3, ReactJS (Vite), Tailwind CSS, git, Photoshop, Illustrator, Visual Studio Code and Vercel.",
-    img: "https://res.cloudinary.com/diruiumfk/image/upload/v1693582911/portfolio_i9ioh1.png",
+    img: "https://res.cloudinary.com/diruiumfk/image/upload/v1693907605/portfolio_b2negg.png",
     logo: null,
     url: "https://juanigarciadev.vercel.app/",
     repository: "https://github.com/juanigarciadev/my-portfolio",
