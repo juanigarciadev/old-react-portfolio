@@ -21,14 +21,17 @@ const Navbar = ({ navScroll }) => {
             />
           </Link>
         </div>
-        <div className="flex gap-8">
-          <h3
+        <ul className="flex gap-8">
+          <li>
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li
             className="hover:text-neutral-400 duration-300 cursor-pointer"
             onClick={() => window.scrollTo({ top: 9000, behavior: "smooth" })}
           >
             Contact
-          </h3>
-          <h3
+          </li>
+          <li
             className="flex items-center gap-1 hover:text-neutral-400 duration-300 cursor-pointer"
             onClick={() =>
               window.open(
@@ -38,8 +41,8 @@ const Navbar = ({ navScroll }) => {
           >
             My resume
             <RxExternalLink />
-          </h3>
-        </div>
+          </li>
+        </ul>
       </section>
       <Outlet />
     </>

@@ -91,23 +91,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center">
-        <h3 className="text-subtitle font-bold pb-8">My certification</h3>
-        <Certificates />
-      </div>
-      <div className="flex justify-center">
-        <button
-          className="secondaryButton gap-1"
-          onClick={() =>
-            window.open(
-              "https://docs.google.com/document/d/1Y21tjUsgCw26h-k5h-EQ0U6f2EIuIz6b/edit?usp=sharing&ouid=111247813899821454897&rtpof=true&sd=true"
-            )
-          }
-        >
-          View my resume
-          <RxExternalLink />
-        </button>
-      </div>
+      <div className="flex justify-center"></div>
     </div>
   );
 };

@@ -14,7 +14,7 @@ const Certificates = () => {
           {certificates.map((certificate) => {
             return (
               <AccordionItem
-                className="w-1/2 2xl:w-1/2 xl:w-1/2 lg:w-full duration-200"
+                className="w-1/2 2xl:w-1/2 xl:w-1/2 lg:w-8/12 duration-200"
                 key={certificate.id}
                 startContent={
                   <Avatar

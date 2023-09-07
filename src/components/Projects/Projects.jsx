@@ -13,21 +13,16 @@ const Projects = () => {
           Stuff I’ve worked on
         </h3>
       </div>
-      <section className="flex flex-col items-center pb-32 pt-8 px-16 gap-16 lg:gap-18 h-auto">
+      <section className="flex flex-col justify-center items-center pb-32 pt-8 px-16 gap-16 lg:gap-18 h-auto">
         {projects.map((project) => {
+          const style = {
+            backgroundImage: `url(${project.img})`,
+          };
           return (
             <div
-              className="flex flex-col w-2/4 gap-6 hover:scale-102 duration-300 lg:w-full lg:px-0 md:hover:scale-100"
+              className="grid grid-cols-2 w-3/4 gap-6 hover:scale-102 duration-300 lg:flex lg:flex-col lg:w-full lg:px-0 md:hover:scale-100"
               key={project.name}
             >
-              <div>
-                <img
-                  src={project.img}
-                  draggable="false"
-                  className="rounded-xl w-full select-none"
-                  alt=""
-                />
-              </div>
               <div className="flex flex-col w-full gap-6 justify-top">
                 <h3 className="text-sm text-neutral-400">{project.tag}</h3>
                 <div>
@@ -53,18 +48,18 @@ const Projects = () => {
                 <div className="flex gap-2 flex-wrap">
                   {project.tools.map((tool) => {
                     return (
-                      <h3 className="border-1 border-neutral-500 p-2 rounded-md hover:border-[#00ff00] duration-300 cursor-default select-none">
+                      <h3 className="bg-neutral-800 p-1.5 rounded-md cursor-default select-none">
                         {tool}
                       </h3>
                     );
                   })}
                 </div>
-                <div className="flex gap-6 justify-end lg:justify-center xs:flex-col xs:items-center">
+                <div className="flex gap-6 lg:justify-center xs:flex-col xs:items-center">
                   <button
                     className="secondaryButton gap-1"
                     onClick={() => window.open(project.repository)}
                   >
-                    View the code
+                    Go to code
                     <RxExternalLink />
                   </button>
                   {project.name != "My portfolio" ? (
@@ -86,6 +81,10 @@ const Projects = () => {
                   )}
                 </div>
               </div>
+              <div
+                className="bg-cover rounded-2xl w-full lg:h-[300px] "
+                style={style}
+              ></div>
             </div>
           );
         })}
