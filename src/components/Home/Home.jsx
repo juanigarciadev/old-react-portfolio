@@ -23,8 +23,8 @@ const Home = () => {
             design at your fingertips.{"}"}
           </h3>
           <h3 className="text-subtitle text-neutral-400 w-8/12">
-            Improving every day to be the best version of myself. Imagining,
-            designing and developing with love.
+            Curious and creative front-end developer focused in creating useful,
+            fun and friendly experiences.
           </h3>
           <div className="flex gap-6 w-full justify-center lg:flex-col lg:items-center md:items-center md:flex-col sm:items-center sm:flex-col">
             <button
