@@ -1,6 +1,6 @@
 import { Accordion, AccordionItem, Avatar } from "@nextui-org/react";
 import React from "react";
-import certificates from "../../../certificates";
+import certificates from "../../maps/certificates";
 import { RxExternalLink } from "react-icons/rx";
 
 const Certificates = () => {
@@ -14,7 +14,7 @@ const Certificates = () => {
           {certificates.map((certificate) => {
             return (
               <AccordionItem
-                className="w-1/2 2xl:w-1/2 xl:w-1/2 lg:w-8/12 duration-200"
+                className="w-full duration-200"
                 key={certificate.id}
                 startContent={
                   <Avatar

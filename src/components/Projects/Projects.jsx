@@ -1,5 +1,5 @@
 import React from "react";
-import projects from "../../../projects";
+import projects from "../../maps/projects";
 import { RxExternalLink } from "react-icons/rx";
 
 const Projects = () => {
@@ -48,7 +48,10 @@ const Projects = () => {
                 <div className="flex gap-2 flex-wrap">
                   {project.tools.map((tool) => {
                     return (
-                      <h3 className="bg-neutral-800 p-1.5 rounded-md cursor-default select-none">
+                      <h3
+                        className="bg-neutral-800 p-1.5 rounded-md cursor-default select-none"
+                        key={tool}
+                      >
                         {tool}
                       </h3>
                     );
