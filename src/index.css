@@ -15,7 +15,7 @@
   .secondaryButton:hover {
     @apply hover:bg-white border-none text-black hover:ease-in-out;
   }
-.disabledButton {
-  @apply flex justify-center bg-neutral-200 items-center align-middle gap-3 text-black h-10 w-44 rounded-md select-none;
-}
+  .disabledButton {
+    @apply flex justify-center bg-neutral-200 items-center align-middle gap-3 text-black h-10 w-44 rounded-md select-none;
+  }
 }

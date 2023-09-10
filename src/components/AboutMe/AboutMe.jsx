@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const AboutMe = () => {
   return (
-    <div className="flex flex-col justify-center gap-16 py-16 px-16">
+    <div className="flex flex-col justify-center gap-16 pt-32 px-16">
       <div className="flex flex-col items-center ">
         <h3 className="text-sm w-auto text-neutral-400 pb-2">
           // I am interesting!
@@ -28,7 +28,11 @@ const AboutMe = () => {
           interactivity and inclusion of all audiences, and to be able to create
           tools that contribute to the development area.
         </p>
-        <Link to="/biography" className="secondaryButton">
+        <Link
+          to="/biography"
+          className="secondaryButton"
+          onClick={() => scrollTo({ top: 0, behaviour: "smooth" })}
+        >
           Read full biography
         </Link>
       </div>

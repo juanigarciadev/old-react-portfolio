@@ -23,7 +23,12 @@ const Navbar = ({ navScroll }) => {
         </div>
         <ul className="flex gap-8">
           <li>
-            <Link to="/projects">Projects</Link>
+            <Link
+              to="/projects"
+              onClick={() => scrollTo({ top: 0, behaviour: "smooth" })}
+            >
+              Projects
+            </Link>
           </li>
           <li
             className="hover:text-neutral-400 duration-300 cursor-pointer"

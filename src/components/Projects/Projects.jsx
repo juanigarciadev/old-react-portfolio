@@ -5,7 +5,7 @@ import { RxExternalLink } from "react-icons/rx";
 const Projects = () => {
   return (
     <>
-      <div className="flex flex-col items-center px-16">
+      <div className="flex flex-col items-center px-16 pt-32">
         <h3 className="text-sm w-auto text-neutral-400 pb-2">
           // Made with love {"<3"}
         </h3>
