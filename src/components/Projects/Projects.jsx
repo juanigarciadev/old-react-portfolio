@@ -4,7 +4,7 @@ import { RxExternalLink } from "react-icons/rx";
 
 const Projects = () => {
   return (
-    <>
+    <section>
       <div className="flex flex-col items-center px-16 pt-32">
         <h3 className="text-sm w-auto text-neutral-400 pb-2">
           // Made with love {"<3"}
@@ -19,8 +19,8 @@ const Projects = () => {
             backgroundImage: `url(${project.img})`,
           };
           return (
-            <div
-              className="grid grid-cols-2 w-3/4 gap-6 hover:scale-102 duration-300 lg:flex lg:flex-col lg:w-full lg:px-0 md:hover:scale-100"
+            <article
+              className="grid grid-cols-2 w-3/4 gap-6 hover:scale-102 duration-300 lg:flex lg:flex-col-reverse lg:w-full lg:px-0 md:hover:scale-100"
               key={project.name}
             >
               <div className="flex flex-col w-full gap-6 justify-top">
@@ -31,7 +31,7 @@ const Projects = () => {
                       src={project.logo}
                       draggable="false"
                       className="w-64 select-none"
-                      alt=""
+                      alt={project.name}
                     />
                   ) : (
                     <h3 className="text-title font-bold pb-1.5">
@@ -57,9 +57,9 @@ const Projects = () => {
                     );
                   })}
                 </div>
-                <div className="flex gap-6 lg:justify-center xs:flex-col xs:items-center">
+                <div className="flex gap-2 lg:justify-center lg:flex-col lg:items-center">
                   <button
-                    className="secondaryButton gap-1"
+                    className="secondaryButton gap-1 lg:w-full"
                     onClick={() => window.open(project.repository)}
                   >
                     Go to code
@@ -67,7 +67,7 @@ const Projects = () => {
                   </button>
                   {project.name != "My portfolio" ? (
                     <button
-                      className="button gap-1"
+                      className="button gap-1 lg:w-full"
                       onClick={() => window.open(project.url)}
                     >
                       Visit the site
@@ -76,7 +76,7 @@ const Projects = () => {
                   ) : (
                     <button
                       disabled
-                      className="disabledButton gap-1"
+                      className="disabledButton gap-1 lg:w-full"
                       onClick={() => window.open(project.url)}
                     >
                       Already here
@@ -88,11 +88,11 @@ const Projects = () => {
                 className="bg-cover rounded-2xl w-full lg:h-[300px] "
                 style={style}
               ></div>
-            </div>
+            </article>
           );
         })}
       </section>
-    </>
+    </section>
   );
 };
 

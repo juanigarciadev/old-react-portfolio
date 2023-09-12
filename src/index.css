@@ -16,6 +16,6 @@
     @apply hover:bg-white border-none text-black hover:ease-in-out;
   }
   .disabledButton {
-    @apply flex justify-center bg-neutral-200 items-center align-middle gap-3 text-black h-10 w-44 rounded-md select-none;
+    @apply flex justify-center items-center align-middle gap-3 border-solid border-1 border-neutral-600 text-neutral-200 h-10 w-44 rounded-md select-none;
   }
 }

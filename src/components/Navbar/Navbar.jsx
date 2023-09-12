@@ -2,41 +2,39 @@ import React from "react";
 import { RxExternalLink } from "react-icons/rx";
 import { Link, Outlet } from "react-router-dom";
 
-const Navbar = ({ navScroll }) => {
+const Navbar = () => {
   return (
-    <>
-      <section
-        className={navScroll ? "navbarContainer active" : "navbarContainer"}
-      >
-        <div>
+    <header className="flex flex-col items-center">
+      <section className="bg-[#0f0f0f] flex justify-center items-center gap-10 h-16 w-2/4 mt-8 rounded-xl fixed shadow-[#0f0f0fa4] shadow-md z-20">
+        <nav>
           <Link to="/">
             <img
               src="https://res.cloudinary.com/diruiumfk/image/upload/v1680216082/beyond-imagination_zfxqv7.png"
               alt="my logo"
               draggable="false"
-              className="logo cursor-pointer select-none"
+              className="w-8 cursor-pointer select-none"
               onClick={() => {
                 scrollTo({ top: 0, behavior: "smooth" });
               }}
             />
           </Link>
-        </div>
-        <ul className="flex gap-8">
-          <li>
+        </nav>
+        <nav className="flex gap-8 md:hidden">
+          <a>
             <Link
               to="/projects"
               onClick={() => scrollTo({ top: 0, behaviour: "smooth" })}
             >
               Projects
             </Link>
-          </li>
-          <li
+          </a>
+          <a
             className="hover:text-neutral-400 duration-300 cursor-pointer"
             onClick={() => window.scrollTo({ top: 9000, behavior: "smooth" })}
           >
             Contact
-          </li>
-          <li
+          </a>
+          <a
             className="flex items-center gap-1 hover:text-neutral-400 duration-300 cursor-pointer"
             onClick={() =>
               window.open(
@@ -46,11 +44,11 @@ const Navbar = ({ navScroll }) => {
           >
             My resume
             <RxExternalLink />
-          </li>
-        </ul>
+          </a>
+        </nav>
       </section>
       <Outlet />
-    </>
+    </header>
   );
 };
 

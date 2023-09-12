@@ -1,10 +1,11 @@
 import React from "react";
 import { BsBehance, BsGithub, BsLinkedin } from "react-icons/bs";
 import { RxExternalLink } from "react-icons/rx";
+import { Outlet } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <section className="flex flex-col">
+    <footer className="flex flex-col w-full">
       <div className="flex flex-col pb-16 md:pb-12">
         <h3 className="text-sm text-neutral-400 pl-16 pb-2">
           // Do you have an idea?
@@ -53,7 +54,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="w-full h-1 bg-[#00ff00]"></div>
-    </section>
+    </footer>
   );
 };
 
