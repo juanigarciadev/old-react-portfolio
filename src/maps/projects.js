@@ -87,7 +87,7 @@ const projects = [
       "Visual Studio Code",
       "Vercel",
     ],
-    img: "https://res.cloudinary.com/diruiumfk/image/upload/v1693907605/portfolio_b2negg.png",
+    img: "https://res.cloudinary.com/diruiumfk/image/upload/v1694627377/portfolio_j7dmf2.png",
     logo: null,
     url: "https://juanigarciadev.vercel.app/",
     moreInfo: "/projects/my-portfolio",
