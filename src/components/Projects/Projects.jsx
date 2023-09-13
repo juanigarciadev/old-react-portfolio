@@ -1,6 +1,7 @@
 import React from "react";
 import projects from "../../maps/projects";
 import { RxExternalLink } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -58,13 +59,12 @@ const Projects = () => {
                   })}
                 </div>
                 <div className="flex gap-2 lg:justify-center lg:flex-col lg:items-center">
-                  <button
+                  <Link
+                    to={project.moreInfo}
                     className="secondaryButton gap-1 lg:w-full"
-                    onClick={() => window.open(project.repository)}
                   >
-                    Go to code
-                    <RxExternalLink />
-                  </button>
+                    More information
+                  </Link>
                   {project.name != "My portfolio" ? (
                     <button
                       className="button gap-1 lg:w-full"

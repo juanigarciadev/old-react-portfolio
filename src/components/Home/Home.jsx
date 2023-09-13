@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BsGithub, BsLinkedin, BsBehance } from "react-icons/bs";
 import AboutMe from "../AboutMe/AboutMe";
 import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact";
 
 const Home = () => {
+  useEffect(() => {
+    document.title = "juanigarciadev's portfolio";
+  }, []);
   return (
     <>
       <section className="h-screen hero flex justify-center text-center px-24 lg:flex lg:items-center lg:px-0 md:flex md:items-center md:px-0 sm:flex sm:items-center sm:px-0">

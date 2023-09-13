@@ -11,6 +11,13 @@ module.exports = {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    backgroundSize: {
+      auto: "auto",
+      cover: "cover",
+      contain: "contain",
+      "80%": "80%",
+      "85%": "85%",
+    },
     fontSize: {
       sm: "12px",
       base: "16px",
