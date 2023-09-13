@@ -55,7 +55,7 @@ const Zolution = () => {
             moment.
           </p>
         </div>
-        <div className="grid grid-cols-2 grid-rows-2 gap-4">
+        <div className="grid grid-cols-2 grid-rows-2 gap-4 md:flex md:flex-col">
           <img
             src="https://res.cloudinary.com/diruiumfk/image/upload/v1693907606/todotech_xeasla.png"
             className="rounded-md"
