@@ -18,12 +18,12 @@ const Todotech = () => {
           E-commerce focused on the sale of pre-assembled computers, components
           and peripherals.
         </h3>
-        <div className="flex items-center gap-8 lg:flex-col lg:items-start">
+        <div className="flex items-center gap-8 lg:flex-col lg:items-start lg:gap-4">
           <div className="flex gap-8 text-neutral-400">
-            <h3 className="flex items-center gap-2">
+            <h3 className="flex items-center gap-2 md:flex-col md:items-start">
               <RxCube /> HTML, CSS, Bootstrap
             </h3>
-            <h3 className="flex items-center gap-2">
+            <h3 className="flex items-center gap-2 md:flex-col md:items-start">
               <AiOutlineClockCircle /> Year 2022
             </h3>
           </div>
@@ -52,7 +52,7 @@ const Todotech = () => {
             alt=""
           />
         </div>
-        <div className="flex flex-col gap-2 my-32 pl-[25%] lg:pl-0">
+        <div className="flex flex-col gap-2 my-32 pl-[25%] lg:pl-0 md:my-20">
           <h3 className="text-subtitle font-bold">Explanation</h3>
           <p className="text-neutral-400 w-8/12 lg:w-full">
             My first project in Web Development, the idea started from the

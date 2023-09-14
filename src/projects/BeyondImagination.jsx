@@ -19,13 +19,13 @@ const BeyondImagination = () => {
           Selected courses can be purchased and the stock is updated in real
           time upon purchase, subtracting the product from a Firebase database.
         </h3>
-        <div className="flex items-center gap-8 lg:flex-col lg:items-start">
+        <div className="flex items-center gap-8 lg:flex-col lg:items-start lg:gap-4">
           <div className="flex gap-8 text-neutral-400">
-            <h3 className="flex items-center gap-2">
+            <h3 className="flex items-center gap-2 md:flex-col md:items-start">
               <RxCube />
               ReactJS, Firebase, SASS
             </h3>
-            <h3 className="flex items-center gap-2">
+            <h3 className="flex items-center gap-2 md:flex-col md:items-start">
               <AiOutlineClockCircle />
               Year 2023
             </h3>
@@ -55,7 +55,7 @@ const BeyondImagination = () => {
             alt=""
           />
         </div>
-        <div className="flex flex-col gap-2 my-32 pl-[25%] lg:pl-0">
+        <div className="flex flex-col gap-2 my-32 pl-[25%] lg:pl-0 md:my-20">
           <h3 className="text-subtitle font-bold">Explanation</h3>
           <p className="text-neutral-400 w-8/12 lg:w-full">
             My first application applying ReactJS as a framework. It is an
