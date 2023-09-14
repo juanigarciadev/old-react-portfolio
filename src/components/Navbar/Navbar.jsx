@@ -22,10 +22,10 @@ const Navbar = () => {
         <nav className="flex gap-8 md:hidden">
           <a>
             <Link
-              to="/projects"
+              to="/work"
               onClick={() => scrollTo({ top: 0, behaviour: "smooth" })}
             >
-              Projects
+              Work
             </Link>
           </a>
           <a

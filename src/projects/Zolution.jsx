@@ -15,14 +15,13 @@ const Zolution = () => {
         <ReturnButtonContainer />
         <h1 className="text-title font-bold pb-2">zolution</h1>
         <h3 className="text-subtitle text-neutral-400">
-          E-commerce focused on the sale of pre-assembled computers, components
-          and peripherals.
+          Own web design and development agency in creation.
         </h3>
         <div className="flex items-center gap-8 lg:flex-col lg:items-start">
           <div className="flex gap-8 text-neutral-400">
             <h3 className="flex items-center gap-2">
               <RxCube />
-              HTML, CSS, Bootstrap
+              ReactJS (Vite), SASS, Vercel
             </h3>
             <h3 className="flex items-center gap-2">
               <AiOutlineClockCircle />

@@ -2,7 +2,7 @@ const projects = [
   {
     name: "TODOTECH",
     information:
-      "My first project in Web Development, the idea started from the creation of an e-commerce. At first it was just the layout (HTML and CSS), but later I added vanilla JavaScript to add e-commerce, dark mode and login functionalities. It still has the original design that I did in its day but probably at some point of boredom I will make a second version updating everything with my knowledge of the moment.",
+      "E-commerce focused on the sale of pre-assembled computers, components and peripherals.",
     tools: [
       "HTML5",
       "CSS3",
@@ -18,7 +18,7 @@ const projects = [
     img: "https://res.cloudinary.com/diruiumfk/image/upload/v1693907606/todotech_xeasla.png",
     logo: "https://res.cloudinary.com/diruiumfk/image/upload/v1693585257/todotech-logo_whcfxr.png",
     url: "https://todotech.netlify.app/",
-    moreInfo: "/projects/todotech",
+    moreInfo: "/work/todotech",
     repository: "https://github.com/juanigarciadev/proyecto-TODOTECH",
     badge: false,
     tag: "// E-commerce",
@@ -26,7 +26,7 @@ const projects = [
   {
     name: "BEYOND IMAGINATION",
     information:
-      "My first application applying ReactJS as a framework. It is an online learning academy based on an e-commerce hosted on Firebase, with an interactive catalog and purchase number. Soon the platform of the academy will be added in which you can register a new account or log in to an already created one, view the courses purchased and their contents.",
+      "E-commerce of an online learning academy related to programming.",
     tools: [
       "ReactJS",
       "HTML5",
@@ -43,15 +43,14 @@ const projects = [
     img: "https://res.cloudinary.com/diruiumfk/image/upload/v1693254750/beyond-imagination_p25riu.png",
     logo: "https://res.cloudinary.com/diruiumfk/image/upload/v1680216082/beyond-imagination-full_jxvtga.png",
     url: "https://beyond-imagination.vercel.app/",
-    moreInfo: "/projects/beyond-imagination",
+    moreInfo: "/work/beyond-imagination",
     repository: "https://github.com/juanigarciadev/first-react-app",
     badge: false,
     tag: "// E-commerce",
   },
   {
     name: "zolution",
-    information:
-      "Own business in creation. It is a project that seeks to unite a team of designers and developers from around the world through which competent web pages and applications are created that can enter the market quickly, professionally and with a competitive price accompanying the customer from start to finish.",
+    information: "Own web design and development agency in creation.",
     tools: [
       "ReactJS (Vite)",
       "HTML5",
@@ -67,7 +66,7 @@ const projects = [
     img: "https://res.cloudinary.com/diruiumfk/image/upload/v1693254749/zolution_dhcyxw.png",
     logo: "https://res.cloudinary.com/diruiumfk/image/upload/v1684452439/zolution-logo_uekblv.svg",
     url: "https://zolution.vercel.app/",
-    moreInfo: "/projects/zolution",
+    moreInfo: "/work/zolution",
     repository: "https://github.com/juanigarciadev/zolution",
     badge: "Working in...",
     tag: "// Design and development agency",
@@ -75,7 +74,7 @@ const projects = [
   {
     name: "My portfolio",
     information:
-      "What I am and what I have achieved concentrated in a place for the public knowledge of my person. I update it constantly. Blog in progress.",
+      "Personal website to show my progress in the programming field (learned technologies, projects and personal publications).",
     tools: [
       "ReactJS (Vite)",
       "HTML5",
@@ -90,7 +89,7 @@ const projects = [
     img: "https://res.cloudinary.com/diruiumfk/image/upload/v1694627377/portfolio_j7dmf2.png",
     logo: null,
     url: "https://juanigarciadev.vercel.app/",
-    moreInfo: "/projects/my-portfolio",
+    moreInfo: "/work/my-portfolio",
     repository: "https://github.com/juanigarciadev/my-portfolio",
     badge: false,
     tag: "// Personal portfolio",
