@@ -70,7 +70,7 @@ const Projects = () => {
                       className="button gap-1 lg:w-full"
                       onClick={() => window.open(project.url)}
                     >
-                      Visit the site
+                      Live site
                       <RxExternalLink />
                     </button>
                   ) : (
