@@ -11,7 +11,7 @@ const BeyondImagination = () => {
   }, []);
   return (
     <>
-      <section className="flex flex-col w-screen py-64 px-16 gap-4">
+      <section className="flex flex-col w-screen py-40 px-16 gap-4">
         <ReturnButtonContainer />
         <h1 className="text-title font-bold pb-2">BEYOND IMAGINATION</h1>
         <h3 className="text-subtitle text-neutral-400 w-2/4 lg:w-full">

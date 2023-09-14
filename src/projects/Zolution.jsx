@@ -11,7 +11,7 @@ const Zolution = () => {
   }, []);
   return (
     <>
-      <section className="flex flex-col w-screen py-64 px-16 gap-4">
+      <section className="flex flex-col w-screen py-40 px-16 gap-4">
         <ReturnButtonContainer />
         <h1 className="text-title font-bold pb-2">zolution</h1>
         <h3 className="text-subtitle text-neutral-400">
@@ -25,7 +25,7 @@ const Zolution = () => {
             </h3>
             <h3 className="flex items-center gap-2 md:flex-col md:items-start">
               <AiOutlineClockCircle />
-              Year 2022
+              Year 2023
             </h3>
           </div>
           <div className="flex gap-2 md:flex-col lg:w-full">
