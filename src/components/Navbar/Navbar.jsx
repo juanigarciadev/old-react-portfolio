@@ -4,8 +4,8 @@ import { Link, Outlet } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <header className="flex flex-col items-center">
-      <section className="bg-[#0f0f0f] flex justify-center items-center gap-10 h-16 w-2/4 mt-8 rounded-xl fixed shadow-[#0f0f0fa4] shadow-md z-20">
+    <>
+      <header className="bg-[#0f0f0f] left-[25%] flex justify-center items-center gap-10 h-16 w-2/4 mt-8 rounded-xl fixed shadow-[#0f0f0fa4] shadow-md z-20">
         <nav>
           <Link to="/">
             <img
@@ -46,9 +46,9 @@ const Navbar = () => {
             <RxExternalLink />
           </a>
         </nav>
-      </section>
+      </header>
       <Outlet />
-    </header>
+    </>
   );
 };
 

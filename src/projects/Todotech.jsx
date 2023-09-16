@@ -11,23 +11,23 @@ const Todotech = () => {
   }, []);
   return (
     <>
-      <section className="flex flex-col w-screen py-40 px-16 gap-4">
+      <div className="flex flex-col w-screen py-40 px-16 gap-4">
         <ReturnButtonContainer />
         <h1 className="text-title font-bold pb-2">TODOTECH</h1>
         <h3 className="text-subtitle text-neutral-400">
           E-commerce focused on the sale of pre-assembled computers, components
           and peripherals.
         </h3>
-        <div className="flex items-center gap-8 lg:flex-col lg:items-start lg:gap-4">
-          <div className="flex gap-8 text-neutral-400">
+        <section className="flex items-center gap-8 lg:flex-col lg:items-start lg:gap-4">
+          <section className="flex gap-8 text-neutral-400">
             <h3 className="flex items-center gap-2 md:flex-col md:items-start">
               <RxCube /> HTML, CSS, Bootstrap
             </h3>
             <h3 className="flex items-center gap-2 md:flex-col md:items-start">
               <AiOutlineClockCircle /> Year 2022
             </h3>
-          </div>
-          <div className="flex gap-2 md:flex-col lg:w-full">
+          </section>
+          <section className="flex gap-2 md:flex-col lg:w-full">
             <a
               className="secondaryButton gap-1 lg:w-full"
               href="https://github.com/juanigarciadev/TODOTECH-project"
@@ -44,15 +44,15 @@ const Todotech = () => {
               Live site
               <RxExternalLink />
             </a>
-          </div>
-        </div>
-        <div className="bg-neutral-900 rounded-md h-full px-32 pt-32 bg-80% bg-no-repeat bg-[center_bottom] hover:bg-85% duration-300 hover:px-28 hover:pt-28 lg:px-8 lg:pt-8 lg:hover:px-6 lg:hover:pt-6 md:px-4 md:pt-4 md:hover:none md:hover:none">
+          </section>
+        </section>
+        <section className="bg-neutral-900 rounded-md h-full px-32 pt-32 bg-80% bg-no-repeat bg-[center_bottom] hover:bg-85% duration-300 hover:px-28 hover:pt-28 lg:px-8 lg:pt-8 lg:hover:px-6 lg:hover:pt-6 md:px-4 md:pt-4 md:hover:none md:hover:none">
           <img
             src="https://res.cloudinary.com/diruiumfk/image/upload/v1693907606/todotech_xeasla.png"
             alt=""
           />
-        </div>
-        <div className="flex flex-col gap-2 my-32 pl-[25%] lg:pl-0 md:my-20">
+        </section>
+        <section className="flex flex-col gap-2 my-32 pl-[25%] lg:pl-0 md:my-20">
           <h3 className="text-subtitle font-bold">Explanation</h3>
           <p className="text-neutral-400 w-8/12 lg:w-full">
             My first project in Web Development, the idea started from the
@@ -63,8 +63,8 @@ const Todotech = () => {
             make a second version updating everything with my knowledge of the
             moment.
           </p>
-        </div>
-        <div className="grid grid-cols-2 grid-rows-2 gap-4 md:flex md:flex-col">
+        </section>
+        <section className="grid grid-cols-2 grid-rows-2 gap-4 md:flex md:flex-col">
           <img
             src="https://res.cloudinary.com/diruiumfk/image/upload/v1693907606/todotech_xeasla.png"
             className="rounded-md"
@@ -85,8 +85,8 @@ const Todotech = () => {
             className="rounded-md"
             alt=""
           />
-        </div>
-      </section>
+        </section>
+      </div>
       <Contact />
     </>
   );

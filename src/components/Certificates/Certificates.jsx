@@ -26,19 +26,19 @@ const Certificates = () => {
                 aria-label={certificate.name}
                 title={certificate.name}
               >
-                <div className="pb-2.5">
+                <section className="pb-2.5">
                   <h3 className="text-sm">Granted by</h3>
-                  <h3 className="font-bold">{certificate.granted}</h3>
-                </div>
-                <div className="pb-2.5">
+                  <p className="font-bold">{certificate.granted}</p>
+                </section>
+                <section className="pb-2.5">
                   <h3 className="text-sm">Certificate ID</h3>
-                  <h3 className="font-bold">{certificate.id}</h3>
-                </div>
-                <div>
+                  <p className="font-bold">{certificate.id}</p>
+                </section>
+                <section>
                   <h3 className="text-sm">Time spent</h3>
-                  <h3 className="font-bold">{certificate.time}</h3>
-                </div>
-                <div className="flex justify-end">
+                  <p className="font-bold">{certificate.time}</p>
+                </section>
+                <section className="flex justify-end">
                   <button
                     className="button button:hover mb-2.5 gap-1"
                     onClick={() => window.open(certificate.url)}
@@ -46,7 +46,7 @@ const Certificates = () => {
                     View certificate
                     <RxExternalLink />
                   </button>
-                </div>
+                </section>
               </AccordionItem>
             );
           })}

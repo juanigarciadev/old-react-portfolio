@@ -5,15 +5,15 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <section>
-      <div className="flex flex-col items-center px-16 pt-32">
+    <div>
+      <section className="flex flex-col items-center px-16 pt-32">
         <h3 className="text-sm w-auto text-neutral-400 pb-2">
           // Made with love {"<3"}
         </h3>
         <h3 className="text-title text-center font-bold pb-1.5">
           Stuff I’ve worked on
         </h3>
-      </div>
+      </section>
       <section className="flex flex-col justify-center items-center pb-32 pt-8 px-16 gap-16 lg:gap-18 h-auto">
         {projects.map((project) => {
           const style = {
@@ -24,9 +24,9 @@ const Projects = () => {
               className="grid grid-cols-2 w-3/4 gap-6 hover:scale-102 duration-300 lg:flex lg:flex-col-reverse lg:w-full lg:px-0 md:hover:scale-100"
               key={project.name}
             >
-              <div className="flex flex-col w-full gap-6 justify-top">
+              <section className="flex flex-col w-full gap-6 justify-top">
                 <h3 className="text-sm text-neutral-400">{project.tag}</h3>
-                <div>
+                <section>
                   {project.logo != null ? (
                     <img
                       src={project.logo}
@@ -39,14 +39,14 @@ const Projects = () => {
                       {project.name}
                     </h3>
                   )}
-                </div>
+                </section>
                 {project.badge ? (
                   <h3 className="flex justify-center items-center text-md text-black bg-yellow-400 w-32 h-8 rounded-md select-none">
                     {project.badge}
                   </h3>
                 ) : null}
                 <h3 className="text-md">{project.information}</h3>
-                <div className="flex gap-2 flex-wrap">
+                <section className="flex gap-2 flex-wrap">
                   {project.tools.map((tool) => {
                     return (
                       <h3
@@ -57,8 +57,8 @@ const Projects = () => {
                       </h3>
                     );
                   })}
-                </div>
-                <div className="flex gap-2 lg:justify-center lg:flex-col lg:items-center">
+                </section>
+                <section className="flex gap-2 lg:justify-center lg:flex-col lg:items-center">
                   <Link
                     to={project.moreInfo}
                     className="secondaryButton gap-1 lg:w-full"
@@ -82,17 +82,17 @@ const Projects = () => {
                       Already here
                     </button>
                   )}
-                </div>
-              </div>
-              <div
+                </section>
+              </section>
+              <section
                 className="bg-cover rounded-2xl w-full lg:h-[300px] "
                 style={style}
-              ></div>
+              ></section>
             </article>
           );
         })}
       </section>
-    </section>
+    </div>
   );
 };
 
