@@ -24,7 +24,7 @@ const projects = [
     tag: "// E-commerce",
   },
   {
-    name: "BEYOND IMAGINATION",
+    name: "</script>",
     information:
       "E-commerce of an online learning academy related to programming.",
     tools: [
@@ -41,10 +41,10 @@ const projects = [
       "Vercel",
     ],
     img: "https://res.cloudinary.com/diruiumfk/image/upload/v1693254750/beyond-imagination_p25riu.png",
-    logo: "https://res.cloudinary.com/diruiumfk/image/upload/v1680216082/beyond-imagination-full_jxvtga.png",
-    url: "https://beyond-imagination.vercel.app/",
+    logo: null,
+    url: "https://script-ecommerce.vercel.app/",
     moreInfo: "/work/beyond-imagination",
-    repository: "https://github.com/juanigarciadev/first-react-app",
+    repository: "https://github.com/juanigarciadev/script",
     badge: false,
     tag: "// E-commerce",
   },
