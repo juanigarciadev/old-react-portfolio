@@ -58,7 +58,7 @@ const AboutMe = () => {
             </article>
             <article className="flex flex-col items-center gap-4">
               <i className="devicon-tailwindcss-plain text-[70px]"></i>
-              <h2 className="text-md">Tailwind</h2>
+              <h2 className="text-md">Tailwind CSS</h2>
             </article>
             <article className="flex flex-col items-center gap-4">
               <i className="devicon-sass-original text-[70px]"></i>
