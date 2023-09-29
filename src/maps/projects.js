@@ -94,6 +94,29 @@ const projects = [
     badge: false,
     tag: "// Personal portfolio",
   },
+  {
+    name: "Blossom UI",
+    information:
+      "Personal website to show my progress in the programming field (learned technologies, projects and personal publications).",
+    tools: [
+      "ReactJS (Vite)",
+      "HTML5",
+      "CSS3",
+      "Tailwind",
+      "git",
+      "Photoshop",
+      "Illustrator",
+      "Visual Studio Code",
+      "Vercel",
+    ],
+    img: "https://res.cloudinary.com/diruiumfk/image/upload/v1694627377/portfolio_j7dmf2.png",
+    logo: null,
+    url: "https://juanigarciadev.vercel.app/",
+    moreInfo: "/work/my-portfolio",
+    repository: "https://github.com/juanigarciadev/my-portfolio",
+    badge: false,
+    tag: "// Personal portfolio",
+  },
 ];
 
 export default projects;
