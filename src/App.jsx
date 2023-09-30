@@ -8,6 +8,7 @@ import Todotech from "./projects/Todotech";
 import BeyondImagination from "./projects/BeyondImagination";
 import Zolution from "./projects/Zolution";
 import MyPortfolio from "./projects/MyPortfolio";
+import BlossomUi from "./projects/BlossomUi";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/work" element={<Projects />} />
           <Route path="/biography" element={<Biography />} />
           <Route path="/work/todotech" element={<Todotech />} />
+          <Route path="/work/blossom-ui" element={<BlossomUi />} />
           <Route
             path="/work/beyond-imagination"
             element={<BeyondImagination />}
