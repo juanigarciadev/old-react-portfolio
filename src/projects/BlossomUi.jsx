@@ -56,32 +56,27 @@ const BlossomUi = () => {
                 <section className="flex flex-col gap-2 my-32 pl-[25%] lg:pl-0 md:my-20">
                     <h3 className="text-subtitle font-bold">Explanation</h3>
                     <p className="text-neutral-400 w-8/12 lg:w-full">
-                        My first application applying ReactJS as a framework. It is an
-                        online learning academy based on an e-commerce hosted on Firebase,
-                        with an interactive catalog and purchase number. Soon the platform
-                        of the academy will be added in which you can register a new account
-                        or log in to an already created one, view the courses purchased and
-                        their contents.
+                    Library of completely free-to-use components created with Tailwind CSS. The main idea of ​​the project is to help beginner (or not so beginner) developers create projects with harmony and correct graphical functioning with unmatched speed.
                     </p>
                 </section>
                 <section className="grid grid-cols-2 grid-rows-2 gap-4 md:flex md:flex-col">
                     <img
-                        src="https://res.cloudinary.com/diruiumfk/image/upload/v1694569896/beyond-imagination-2_rpy0nw.png"
+                        src="https://res.cloudinary.com/diruiumfk/image/upload/v1704676168/blossomui1_gnovhi.png"
                         className="rounded-md"
                         alt=""
                     />
                     <img
-                        src="https://res.cloudinary.com/diruiumfk/image/upload/v1694569896/beyond-imagination-3_i4nbd1.png"
+                        src="https://res.cloudinary.com/diruiumfk/image/upload/v1704676168/blossomui1_gnovhi.png"
                         className="rounded-md"
                         alt=""
                     />
                     <img
-                        src="https://res.cloudinary.com/diruiumfk/image/upload/v1694569895/beyond-imagination-4_g82lus.png"
+                        src="https://res.cloudinary.com/diruiumfk/image/upload/v1704676168/blossomui3_j0h9lq.png"
                         className="rounded-md"
                         alt=""
                     />
                     <img
-                        src="https://res.cloudinary.com/diruiumfk/image/upload/v1694569896/beyond-imagination-5_vxlsdw.png"
+                        src="https://res.cloudinary.com/diruiumfk/image/upload/v1704676168/blossomui4_mxqwry.png"
                         className="rounded-md"
                         alt=""
                     />
