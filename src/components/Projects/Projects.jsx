@@ -25,7 +25,7 @@ const Projects = () => {
               key={project.name}
             >
               <section
-                className="rounded-2xl bg-cover w-full h-[300px] duration-[1000ms] hover:bg-bottom"
+                className="rounded-2xl bg-cover w-full h-[300px] duration-[1000ms] hover:bg-bottom lg:hover:bg-right"
                 style={style}
               ></section>
               <section className="flex flex-col items-end gap-2 absolute bottom-4 right-4">
