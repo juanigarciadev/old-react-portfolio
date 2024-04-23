@@ -14,80 +14,24 @@ const Projects = () => {
           Stuff I’ve worked on
         </h3>
       </section>
-      <section className="flex flex-col justify-center items-center pb-32 pt-8 px-16 gap-16 lg:gap-18 h-auto">
+      <section className="grid grid-cols-2 w-full items-center pb-32 pt-8 px-96 gap-8 lg:gap-18 lg:flex lg:flex-col lg:px-16">
         {projects.map((project) => {
           const style = {
             backgroundImage: `url(${project.img})`,
           };
           return (
             <article
-              className="grid grid-cols-2 w-3/4 gap-6 hover:scale-102 duration-300 lg:flex lg:flex-col-reverse lg:w-full lg:px-0 md:hover:scale-100"
+              className="w-full relative gap-6 hover:scale-102 duration-300 group md:hover:scale-100"
               key={project.name}
             >
-              <section className="flex flex-col w-full gap-6 justify-top">
-                <h3 className="text-sm text-neutral-400">{project.tag}</h3>
-                <section>
-                  {project.logo != null ? (
-                    <img
-                      src={project.logo}
-                      draggable="false"
-                      className="w-64 select-none"
-                      alt={project.name}
-                    />
-                  ) : (
-                    <h3 className="text-title font-bold pb-1.5">
-                      {project.name}
-                    </h3>
-                  )}
-                </section>
-                {project.badge ? (
-                  <h3 className="flex justify-center items-center text-md text-black bg-yellow-400 w-32 h-8 rounded-md select-none">
-                    {project.badge}
-                  </h3>
-                ) : null}
-                <h3 className="text-md">{project.information}</h3>
-                <section className="flex gap-2 flex-wrap">
-                  {project.tools.map((tool) => {
-                    return (
-                      <h3
-                        className="bg-neutral-800 p-1.5 rounded-md cursor-default select-none"
-                        key={tool}
-                      >
-                        {tool}
-                      </h3>
-                    );
-                  })}
-                </section>
-                <section className="flex gap-2 lg:justify-center lg:flex-col lg:items-center">
-                  <Link
-                    to={project.moreInfo}
-                    className="secondaryButton gap-1 lg:w-full"
-                  >
-                    More information
-                  </Link>
-                  {project.name != "My portfolio" ? (
-                    <button
-                      className="button gap-1 lg:w-full"
-                      onClick={() => window.open(project.url)}
-                    >
-                      Live site
-                      <RxExternalLink />
-                    </button>
-                  ) : (
-                    <button
-                      disabled
-                      className="disabledButton gap-1 lg:w-full"
-                      onClick={() => window.open(project.url)}
-                    >
-                      Already here
-                    </button>
-                  )}
-                </section>
-              </section>
               <section
-                className="bg-cover rounded-2xl w-full lg:h-[300px] "
+                className="rounded-2xl bg-cover w-full h-[300px] duration-[1000ms] hover:bg-bottom"
                 style={style}
               ></section>
+              <Link to={project.moreInfo} className="flex items-center justify-center w-8 h-8 bg-white shadow-md border rounded-full absolute bottom-4 right-4 group-hover:w-36 group-hover:justify-center duration-300 cursor-pointer">
+                <span className="w-fit h-4 pl-1 absolute opacity-0 text-sm text-black overflow-hidden group-hover:relative group-hover:opacity-100 group-hover:duration-400">More information</span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24"><path fill="black" d="m11.293 17.293l1.414 1.414L19.414 12l-6.707-6.707l-1.414 1.414L15.586 11H6v2h9.586z"/></svg>
+              </Link>
             </article>
           );
         })}
